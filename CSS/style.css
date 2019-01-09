@@ -1,0 +1,68 @@
+html, body {
+	height: 100%;
+}
+
+body {
+	background: url('../images/cantare-hero.jpg');
+	background-position: center;
+	background-attachment: fixed;
+	-webkit-background-size: cover; 
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+#content {
+	display: block;
+	position: absolute;
+	right: 0px;
+	top: 230px;
+	background: #3B8686;
+	color: white;
+	width: 600px;
+	min-height: 100%;
+	padding: 15px;
+}
+
+#logo-banner {
+	background: white;
+	position: absolute;
+	right: 0px;
+	width: 600px;
+	padding: 15px;
+}
+
+#logo-banner img {
+	width: 100%;
+}
+
+h1 {
+	font-family: 'charm', curive;
+	font-size: 50px;
+	text-align: center;
+}
+
+h2 {
+	font-family: 'Thasadith', sans-serif;
+	font-size: 40px;
+	background: rgba(168, 219, 168, .3);
+	border-radius: 5px;
+	padding: 7px;
+	text-align: center;
+	color: #A8DBA8;
+}
+
+p {
+	font-family: 'Thasadith', sans-serif;
+	font-size: 25px;
+}
+
+a{
+	text-decoration: none;
+	color: #A8DBA8;
+}
+
+a:visited {
+	text-decoration: none;
+	color: #0b486b;
+}
